@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useFetch from '../package/useFetch';
+import useFetch from '@iva-stasia/use-fetch-hook';
 
 const MAX_ADVICE_NUM = 200;
 

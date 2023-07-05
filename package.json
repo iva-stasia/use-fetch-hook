@@ -1,8 +1,12 @@
 {
   "name": "@iva-stasia/use-fetch-hook",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple React hook for handling data fetching.",
   "main": "package/useFetch.jsx",
+  "files": [
+    "README.md",
+    "package/useFetch.jsx"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iva-stasia/use-fetch-hook": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

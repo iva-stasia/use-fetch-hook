@@ -8,6 +8,8 @@ A simple React hook for handling data fetching.
 
 ## Usage example
 
+You can see how this code works [here](https://stackblitz.com/edit/use-fetch-hook-example?file=src%2FApp.js).
+
 ```javascript
 import { useState } from 'react';
 import useFetch from '@iva-stasia/use-fetch-hook';
@@ -39,18 +41,18 @@ export default App;
 
 ## API
 
-### Parameters: 
+### Parameters:
 
-| Parameter | Type | Required | Description |
-| --- | --- | --- | --- |
-| URL | String | Yes |  The URL to fetch data from. |
+| Parameter | Type   | Required | Description                 |
+| --------- | ------ | -------- | --------------------------- |
+| URL       | String | Yes      | The URL to fetch data from. |
 
-### Returns 
+### Returns
 
 The hook returns an object that contains the following properties:
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| data | any \| undefined |  The fetched data if the fetch was successful, otherwise `undefined`. |
-| loading | boolean |  A value that represents whether a request is pending. |
-| error | error \| undefined |  The error object if an error occurred during the fetch, otherwise `undefined`. |
+| Parameter | Type               | Description                                                                    |
+| --------- | ------------------ | ------------------------------------------------------------------------------ |
+| data      | any \| undefined   | The fetched data if the fetch was successful, otherwise `undefined`.           |
+| loading   | boolean            | A value that represents whether a request is pending.                          |
+| error     | error \| undefined | The error object if an error occurred during the fetch, otherwise `undefined`. |
